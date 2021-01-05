@@ -291,6 +291,19 @@ xz_deps = \
 xz_deps_for_build = \
 	$(NULL)
 
+brotli_version = 925c97a0de22717a0be5f049966682dd6c01bc43
+brotli_url = $(frida_base_url)/brotli.git
+brotli_hash = $(NULL)
+brotli_recipe = meson
+brotli_patches = \
+	$(NULL)
+brotli_options = \
+	$(NULL)
+brotli_deps = \
+	$(NULL)
+brotli_deps_for_build = \
+	$(NULL)
+
 sqlite_version = b67ff8d8344c355ec322e1a838dd204416483be2
 sqlite_url = $(frida_base_url)/sqlite.git
 sqlite_hash = $(NULL)
